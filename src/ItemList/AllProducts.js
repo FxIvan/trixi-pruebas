@@ -6,7 +6,8 @@ export const stock=[{
     img:nootbook1,
     descripcion:"Esto es una Descripcion 1",
     stock:10,
-    precio:"58.000"
+    precio:"58.000",
+    category:"window"
 },
 {
     id:2,
@@ -14,7 +15,8 @@ export const stock=[{
     img:nootbook,
     descripcion:"Esto es una Descripcion 2",
     stock:8,
-    precio:"88.000"
+    precio:"88.000",
+    category:"apple"
 },
 {
     id:3,
@@ -22,6 +24,7 @@ export const stock=[{
     img:nootbook1,
     descripcion:"Esto es una Descripcion 3",
     stock:5,
-    precio:"68.000"
+    precio:"68.000",
+    category:"linux"
 }
 ]

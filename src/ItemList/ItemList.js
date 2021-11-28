@@ -7,7 +7,9 @@ export const ItemList = ({states}) => {
       {
         states.map((productos) => {
           return(
-            <Item item={productos}/>
+            <div key={productos.id}>
+              <Item item={productos}/>
+            </div>
           )
         })
       }
